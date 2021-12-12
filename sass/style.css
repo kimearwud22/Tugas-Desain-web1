@@ -1,0 +1,91 @@
+*{
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bungkus-nav {
+    background-color: yellow;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.logo-nav a{
+    float: left;
+    padding: 15px 0px 15px 50px;
+    font-size: 25px;
+}
+.nama-nav a{
+    float: right;
+    display: block;
+    padding: 20px 50px 20px 50px;
+    color: black;
+    text-decoration: none;
+    border-left: 1px solid white;
+}
+
+li a{
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: red;
+}
+li a:hover{
+    background-color: salmon;
+    color: seagreen;
+}
+main,aside,footer{
+    border: #fff 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 99.8%;
+    height: 98px;
+    background: yellow;
+}
+.judul-halaman {
+    text-align: center;
+}
+
+main{
+    width: 69.8%;
+    height: 348px;
+    font-size: x-large;
+    background: whitesmoke;
+    float: left;
+    background-color: blue;
+}
+aside{
+    width: 29.8%;
+    height: 348px;
+    font-size: x-large;
+    background: wheat;
+}
+.footer{
+    float: left;
+    display: block;
+    padding: 10px;
+    width: 98.8%;
+    height: 98%;
+    color: black;
+    background: yellow;
+    text-decoration: none;
+}
+.footer-1{
+    float: right;
+    display: block;
+    padding: 20px 50px 20px 50px;
+    color: black;
+    text-decoration: none;
+    border-left: 1px solid white;
+}
+
+.footer-lapis {
+    display: flex;
+    width: 99.8%;
+    height: 98%;
+}
